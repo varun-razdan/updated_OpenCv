@@ -1,22 +1,11 @@
-# OpenCV-Face-Filters
-Snapchat-like Face Filters in OpenCV
-## Currently following filters are available:
+Hi,
+I have deleted that .sh file and added a patch of code in filters.py file. Now it will easily work in windows platform. 
 
-1. Dog Filter
-2. Moustache Filter
-3. Cowboy Hat Filter
+Steps for that:-
+1) Download Python 2.7.15 https://www.python.org/downloads/release/python-2715/
+2) After installing python open CMD and in cmd type the following 2 commands for installing OpenCV & urllib3 package.
+a) pip install opencv-python 
+b) pip install urllib3
+3) Finally now right click the filters.py file and open through python editor. And Run using F5 button.
 
-## Dependencies
- - OpenCV(3.2.0)
- - Python 2.7x
- 
-Make Sure to paste all the filter png's in the same directory as _filters.py_
-
-## How to use?
-```bash
-git clone https://github.com/kunalgupta777/OpenCV-Face-Filters
-```
-Browse to the repo
-``` bash
-python filters.py
-```
+Attached is the updated code for reference. 
