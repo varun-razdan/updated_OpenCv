@@ -1,5 +1,5 @@
 # Face filters (Snapchat like) using OpenCV
-# @author:- Kunal Gupta (cite as kg777)
+# @author:- Varun Razdan 
 import cv2
 import sys
 import logging as log
